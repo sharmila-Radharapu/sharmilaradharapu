@@ -1,0 +1,31 @@
+<!-- templates/signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup | Art Marketplace</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📝 Create an Account</h2>
+    <form method="POST" class="form-box">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="role">Register as:</label>
+      <select name="role" id="role" required>
+        <option value="">-- Select Role --</option>
+        <option value="artist">Artist</option>
+        <option value="buyer">Buyer</option>
+      </select>
+
+      <button type="submit">Signup</button>
+    </form>
+    <p class="text-center mt-3">Already have an account? <a href="/login">Login here</a></p>
+  </div>
+</body>
+</html>

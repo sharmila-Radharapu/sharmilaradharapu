@@ -1,0 +1,7 @@
+pip install flask
+pip install flask werkzeug
+
+
+Flask>=2.0
+Werkzeug>=2.0
+

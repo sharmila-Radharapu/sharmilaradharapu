@@ -1,0 +1,24 @@
+<!-- templates/login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Art Marketplace</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🔐 Login to Abstract Art Marketplace</h2>
+        <form method="POST" class="form-box">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p style="text-align:center; margin-top: 15px;">New here? <a href="/signup">Create an account</a></p>
+    </div>
+</body>
+</html>
